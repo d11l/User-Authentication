@@ -6,7 +6,7 @@ const Router = require('./Routes/Routes');
 
 const app	= express();
 
-const DBuri = "mongodb://127.0.0.1:27017/App";// Ex: mongodb://127.0.0.1:27017/App
+const DBuri = "";// Ex: mongodb://127.0.0.1:27017/DB name
 
 mongoose.connect(DBuri,{
     useNewUrlParser: true,
