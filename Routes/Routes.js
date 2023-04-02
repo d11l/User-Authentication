@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt');
 
 
 const isAuth = (req, res, next) => req.session.isAuth ? next() : res.redirect('/login');
-;    
+    
     
 Router.get('/login'    , (req, res) => res.render("login"))   
 Router.get('/register' , (req, res) => res.render("register"));
